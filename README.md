@@ -16,8 +16,22 @@ The project hopes to offer tools to assist the TTC in anticipating days with pro
 
 ## Introduction/Dataset
 
+The 2022 TTC Bus Delay dataset was inputted into Tableau to detect pre-existing trends. A Tableau public story is linked here (https://public.tableau.com/shared/SXZX9QZWQ?:display_count=n&:origin=viz_share_link) for an interactive storyboard of visuals. 
 
+_Figure 1: Number of Delay Incidents in 2022 by Type_
+![Year in Review by Incident Type - 2022](https://github.com/MAamer28/Project_4/assets/130619866/c0484a34-dcaa-4f3e-96cc-12de04e49388)
 
+_Figure 2: Counts of Delays by Day of Week_
+![Delay Incidents by Weekday](https://github.com/MAamer28/Project_4/assets/130619866/966445ea-8601-40fe-b374-c8d41514f53a)
+
+_Figure 3: Dashboard Showing Incident Types_
+![Types of Incidents](https://github.com/MAamer28/Project_4/assets/130619866/fcaf5c28-8e1f-45a3-9413-73ae05deb6ec)
+
+_Figure 4: Minute Delays by Incident Type (Avg)_
+![Avg Min Delay by Incident Type](https://github.com/MAamer28/Project_4/assets/130619866/6b6b9f65-e47b-4a4d-b67d-d96df6408e18)
+
+_Figure 5: Top Ten TTC Bus Routes by Average Minute Delays in 2022_
+![Routes with Longest Delays (Min)](https://github.com/MAamer28/Project_4/assets/130619866/12d09ac6-a10d-4d3c-961c-2c14dc432965)
 
 # Toronto Bus Delay Forecast Using (SARIMAX())
 
@@ -90,13 +104,9 @@ The model was trained, and its predictions for July were compared with the test 
 
 This analysis offers a robust foundation for understanding and predicting bus delays in Toronto. The pursuit of even more accurate forecasting continues, with the hope of enhancing Toronto's transportation system efficiency.
 
-
-
-## Conclusion
-
 ## References
 This data was taken from the Open Data Toronto portal (https://open.toronto.ca/dataset/ttc-bus-delay-data/) and is used for educational purposes only.
 
-Tableau storyboard: https://public.tableau.com/app/profile/mohamed.aamer/viz/Project_4_16969863887140/TTCBusDelays?publish=yes
+Tableau storyboard: https://public.tableau.com/shared/SXZX9QZWQ?:display_count=n&:origin=viz_share_link
 
 Google Slide deck: https://docs.google.com/presentation/d/1wGkWYTlezbSzjKjrxqlzTlUGRyhHo5VHfscls4SugG0/edit?usp=sharing
