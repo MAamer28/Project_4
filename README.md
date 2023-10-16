@@ -78,6 +78,9 @@ Before modeling with SARIMAX, the daily occurrences of various incidents related
 ## Stationarity Testing
 
 To ensure accurate time series analysis, the data's stationarity was verified using the ADF (Augmented Dickey-Fuller) and KPSS (Kwiatkowski-Phillips-Schmidt-Shin) tests. Stationary data has stable statistical properties over time, making it ideal for time series forecasting.
+![Model Selection SARIMAX](output/model_selection_SARIMAX.png)
+
+![Original vs Differenced Data](output/original_vs_diff.png)
 
 ## Model Selection
 
@@ -99,10 +102,12 @@ The SARIMAX model used in this project had the following structure:
 ## Prediction
 
 The model was trained, and its predictions for July were compared with the test set, yielding an RMSE (Root Mean Squared Error) of 662.80 minutes. Given the complexity of the data, this RMSE indicates the model's respectable performance. The model was then used to predict the overall `Min Delay` for the entire dataset.
+![Model on Test Set](output/model_on_testset.png)
 
 ## Conclusion (Time Series Analysis)
 
 This analysis offers a robust foundation for understanding and predicting bus delays in Toronto. The pursuit of even more accurate forecasting continues, with the hope of enhancing Toronto's transportation system efficiency.
+![Model on Whole Data](output/module_on_wholedata.png)
 
 ## References
 This data was taken from the Open Data Toronto portal (https://open.toronto.ca/dataset/ttc-bus-delay-data/) and is used for educational purposes only.
