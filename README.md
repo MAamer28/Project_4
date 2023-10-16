@@ -78,8 +78,6 @@ Before modeling with SARIMAX, the daily occurrences of various incidents related
 ## Stationarity Testing
 
 To ensure accurate time series analysis, the data's stationarity was verified using the ADF (Augmented Dickey-Fuller) and KPSS (Kwiatkowski-Phillips-Schmidt-Shin) tests. Stationary data has stable statistical properties over time, making it ideal for time series forecasting.
-![Model Selection SARIMAX](Output/model_selection_SARIMAX.png)
-
 ![Original vs Differenced Data](Output/original_vs_diff.png)
 
 ## Model Selection
@@ -88,7 +86,7 @@ The best model parameters were chosen based on:
 - **AIC (Akaike Information Criterion):** Measures the goodness of fit of a statistical model and penalizes models with more parameters.
 - **BIC (Bayesian Information Criterion):** Similar to AIC but with a stricter penalty for models with more parameters.
 - **MSE (Mean Squared Error):** Represents the average squared difference between observed and predicted values.
-
+![Model Selection SARIMAX](Output/model_selection_SARIMAX.png)
 ## Model Evaluation
 
 To ensure accurate predictions, the model's residuals (differences between predictions and actual values) were examined. A lack of patterns in the residuals over time, a normal distribution of residuals, and no auto-correlation (verified using ACF and PACF plots) confirmed the model's robustness.
