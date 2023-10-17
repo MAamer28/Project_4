@@ -33,6 +33,31 @@ _Figure 4: Minute Delays by Incident Type (Avg)_
 _Figure 5: Top Ten TTC Bus Routes by Average Minute Delays in 2022_
 ![Routes with Longest Delays (Min)](https://github.com/MAamer28/Project_4/assets/130619866/12d09ac6-a10d-4d3c-961c-2c14dc432965)
 
+# Machine learnign model using Random Forest Regressor for Min delay
+
+In this provided machine learning model has been trained based on 2022 data set and tested on 2023 data set which predict five different category of min delay specifeied below.
+
+Ver low-Min delay of 0-10 Min
+low - 10-30 min
+medium - 30-100 min
+high - 100-500 min
+very high - soo or above
+
+#![](https://github.com/MAamer28/Project_4/blob/main/Output/Min%20Delay%20Confusion%20Matrix.png)
+
+Model is working expected with accuray of 95% which is efficient to predict class of very low and low.Model still struggles to identify Medium and very high prediction as we can see in confusion matrix that medium class give more number of flase positive than true positive
+
+# Machine learnign Model using reandom forest Regressor for oncident prediction
+
+In this provided machine learning model has been trained based on 2022 datset and tested on 2023 dataset.
+
+#![](https://github.com/MAamer28/Project_4/blob/main/Output/Actual%20Incident%20Type.png)
+
+#![](https://github.com/MAamer28/Project_4/blob/main/Output/Predicted%20Incident%20Type.png)
+
+Model is 38% of accuracy which represents area of improvement as model is struggling to predict low instance value while giving good prefomance for class like Michenical and diversion.Few recommendation to improve model's accuracy is by Oversampling or Undersampling also can create model using nueral network
+
+
 # Toronto Bus Delay Forecast Using (SARIMAX())
 
 ## Overview
